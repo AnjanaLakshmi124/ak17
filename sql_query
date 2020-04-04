@@ -1,0 +1,20 @@
+create database group10;
+
+use group10;
+
+create table employee_management(
+employee_id int primary key not null,
+firstName varchar(50),
+lastName varchar(50),
+mail_id varchar(50),
+contact_number varchar(11),
+gender varchar(10),
+age int,
+job_location varchar(20),
+Bussiness_Unit varchar(20),
+project_id int,
+Job_title varchar(20),
+DateOfJoining date,
+Salary double(7,2));
+
+select * from employee_management;
